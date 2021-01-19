@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   font-family: "poppins",sans-serif;
+   min-height: 100vh;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+.container{
+    /*background: lightblue;*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    min-height: 80vh;
+    width: 35rem;
+   /* background: lightcoral;*/
+   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px ;
+   border-radius: 30px;
+   padding: 0rem 5rem;
+}
+.Sneaker img{
+    width: 20rem;
+}
+.Sneaker{
+    min-height: 35vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background: lightcoral;
+}
+.Circle {
+    width: 15rem;
+    height: 15 rem;
+    background: linear-gradient( rgba(245,70,66,0.75) rgba(8,83,156,0.75));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
